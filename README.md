@@ -13,7 +13,12 @@ nvm install 18
 nvm use 18
 ```
 
-## 修改port跟讓外部可以連線，
+## 起vite
+```
+npm create vite@latest
+```
+
+## 修改vite.config.js讓外部可以連線，
 ```
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
